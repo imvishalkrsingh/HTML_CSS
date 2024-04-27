@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(209, 196, 204, 0.572); */
+}
+#one1{
+    width: 5vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(214, 220, 220);
+}
+#logo{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    left: 20px;
+}
+#menu{
+    position: relative;
+    top: 350px;
+    /* left: 20px; */
+    font-size: 25px;
+}
+#social{
+    position: relative;
+    top: 520px;
+    font-size: 25px;
+    left: 20px;
+}
+#two2{
+    width: 45vw;
+    height: 100vh;
+    background-color: rgba(96, 155, 188, 0.742);
+}
+#price{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 100px;
+    height: 50px;
+    border-radius: 45%;
+    background-color: rgb(60, 84, 184);
+    color: aliceblue;
+}
+#price h2{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#two2 img{
+    width: 100%;
+    transform: rotate(-40deg);
+    margin-left: -70px;
+    margin-top: -50px;
+}
+#three3{
+    width: 45vw;
+    height: 100vh;
+    background-color: rgb(248, 246, 249);
+}
+#first{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    background-color: black;
+}
+#first-one{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(114, 209, 209, 0.573);
+}
+#first-one img{
+    width: 100%;
+    margin-top: -100px;
+}
+#first-one h6{
+    position: relative;
+    top: 50px;
+}
+#first-two{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(152, 228, 203, 0.618);
+}
+#first-two img{
+    width: 100%;
+    margin-top: -100px;
+    /* transform: rotate(25deg); */
+}
+#second{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    background-color: rgb(126, 10, 10);
+}
+#second-one{
+    width: 50%;
+    height: 100%;
+    background-color: #d5c7c7;
+}
+#second-one img{
+    width: 100%;
+    margin-top: -100px;
+}
+#second-two{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(229, 218, 201);
+}
+#second-two img{
+    width: 100%;
+    margin-top: -100px;
+}
+#third{
+    width: 100%;
+    height: 34%;
+    display: flex;
+    /* background-color: #60bd14; */
+}
+#third-one{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(253, 250, 250);
+}
+#third-one i{
+    font-size: 40px;
+    padding-top: 110px;
+    padding-left: 30px;
+}
+#third-two{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(219, 214, 210, 0.558);
+}
+#third-two a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-top: 120px;
+    top: 50px;
+
+}
+#third-two a:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+    font-family: gilroy;
+    /* transition: 0.4s; */
+    /* transition-delay: 0.5s; */
+}
+#four4{
+    width: 5vw;
+    height: 100vh;
+    background-color: rgb(196, 203, 203);
+}
+#percent{
+    position: relative;
+    font-size: 25px;
+    left: 20px;
+    top: 100px; 
+}
+#lock{
+    position: relative;
+    top: 600px;
+    font-size: 25px;
+}
+.shoes{
+    position: relative;
+    overflow: hidden;
+}
+.shoes h4{
+    position: absolute;
+    font-family: gilroy;
+    color: white;
+    left: 50%;
+    bottom: -10%;
+    transform: translate(-50%,0%);
+    transition: ease .5s;
+}
+.shoes:hover h4{
+    bottom: 5%;
+}
+.shoes img{
+    transition: ease .5s;
+}
+.shoes:hover img{
+    transform: translate(-20px);
+}
