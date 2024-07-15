@@ -1,0 +1,8 @@
+<svg style="width: 2950px; height: 500px" class="kidsBanner__animatedText" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2950 500" preserveAspectRatio="xMidYMin slice">
+<path id="curve" fill="transparent" d="M.34,58.8S64.01,1.13,156.55,1.13c209.69,0,425.99,323.37,690.36,323.37C1158.4,324.5,1297.53,.51,1567.93,.51c270.35-2.38,398.75,319.22,705.18,319.22h1.22C2580.75,319.73,2709.15-1.87,2979.51,.51c261.94,0,400.7,304.05,692.3,323.06"/>
+<text class="kidsBanner__animatedTextPathWrapper" width="100%" style="transform: translate3d(0, 120px, 0)">
+<textPath class="kidsBanner__animatedTextPath" alignment-baseline="top" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#curve" startOffset="-22.196%">
+mini-universe-mini-universe-mini-universe-mini-universe-mini-universe
+</textPath>
+</text>
+</svg>

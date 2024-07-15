@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 300vh;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+h1{
+    position: relative;
+    top: 200px;
+    left: 500px;
+}
+.trigger{
+    position: absolute;
+    top: 75vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(112, 156, 170);
+    padding: 20px;
+}
+.box{
+    background-color: rgb(236, 18, 18);
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}

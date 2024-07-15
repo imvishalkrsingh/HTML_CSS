@@ -1,0 +1,4 @@
+<svg class="c-bottomNavBar__navButtonIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+<path fill="none" d="M-.14-.14h20v20h-20Z" transform="translate(0.14 0.14)"/>
+<path class="svgShape" d="M7.36,17.36a.83.83,0,0,0,.83.83h3.33a.84.84,0,0,0,.84-.83v-.84h-5ZM9.86,1.52A5.83,5.83,0,0,0,6.52,12.14V14a.85.85,0,0,0,.84.84h5a.84.84,0,0,0,.83-.84V12.14A5.83,5.83,0,0,0,9.86,1.52Zm2.37,9.25-.71.5v1.92H8.19V11.27l-.71-.5a4.16,4.16,0,1,1,5.8-1,4,4,0,0,1-1,1Z" transform="translate(0.14 0.14)"/>
+</svg>

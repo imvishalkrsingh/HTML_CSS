@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    overflow: hidden;
+}
+#main{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+   background-color: #000;
+   /* border: 2px solid red; */
+}
+#nav{
+    z-index: 99;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#nav1{
+    width: 20%;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+#nav2{
+    display: flex;
+    width: 80%;
+    margin-left: 1000px;
+}
+#nav2 h3{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#first{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#left-div{
+    /* border: 2px solid yellow; */
+    width: 25%;
+}
+#centertext h1{
+padding: 170px 0 0 70px;
+font-size: 350px;
+}
+#btm-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin-top: 25%;
+    width: 170%;
+    height: 15%;
+    /* border: 2px solid red; */
+    margin-left: 40%;
+}
+#btm-text1{
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+    margin-right: 40px;
+}
+#btm-text1 h4,p{
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+#btm-text1 i{
+    color: rgb(2, 93, 63);
+   padding-left: 10px;
+}
+#btm-text2{
+    width: 50%;
+    height: 100%;
+    padding-top: 20px;
+}
+#btm-text2 h4,p{
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+#btm-text2 i{
+    color: rgb(200, 14, 14);
+   padding-left: 10px;
+}
+                    /* slanted */
+#slanted{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+#triangle1{
+    width: 100%;
+    height: 50%;
+    background-image: url(images/second.jpeg);
+    clip-path: polygon(0 0, 90% 0, 100% 0, 33% 100%);
+    background-position: center;
+}
+#triangle1 p{
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    padding-top: 210px;
+   
+}
+#triangle2{
+    width: 100%;
+    height: 75%;
+    background-image: url(images/first.avif);
+   margin-top: -55%;
+    margin-left: 32%;
+    clip-path: polygon(71% 0, 89% 74%, 3% 67%);
+}
+
+#triangle3{
+    width: 85%;
+    height: 70%;
+    background-image: url(images/thirddd.webp);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 19%, 100% 15%, 55% 100%, 60% 100%);
+    margin-top: -250px;
+    margin-left: 35%;
+    transform: rotate(5deg);
+}
+#rightdiv{
+    /* border: 2px solid blue; */
+    width: 25%;
+    height: 100%;
+}
+#center-icon{
+    width: 100%;
+    height: 10%;
+    margin-top: 90%;
+    margin-left: 30%;
+    transform: rotate(90deg);
+}
+#center-icon i{
+   padding: 12px;
+}
+#btm{
+    margin-top: 90%;
+    margin-left: -8%;
+}
+#btm i{
+    padding-left: 10px;
+    font-size: 30px;
+}

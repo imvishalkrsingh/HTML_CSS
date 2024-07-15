@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        background-size: cover; 
+        background-image: url(https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60);
+        }
+    #overlay{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+         text-transform: uppercase;
+        transform: translate(-50%,-50%);
+        color: rgb(140, 66, 140);
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 30px;
+        font-size: 50px;
+        font-family: system-ui, -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        
+    }

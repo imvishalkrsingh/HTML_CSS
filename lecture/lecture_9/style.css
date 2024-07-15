@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+
+#nav a{
+    color: rgb(228,224,224);
+    text-decoration: none;
+    font-family: gilroy;
+    font-size: 14px;
+}
+#nav i{
+    color: rgb(177,173,173);
+    font-size: 18px;
+}
+#first{
+    width: 100%;
+    height: 610px;
+    background-image:url(images/first.png);
+    background-size: cover;
+    background-position: center;
+    /* border-style: dotted; */
+}
+#second{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/second.png);
+    background-size: cover;
+    background-position: center;
+}
+#third{
+    width: 100%;
+    height: 600px;
+    background-image: url(images/third.png);
+    background-size: cover;
+    background-position: center;
+}
+#fourth{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+#fourOne{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/fourOne.png);
+    background-size: cover;
+    background-position: center;
+
+}
+#fourTwo{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/fourTwo.png);
+    background-size: cover;
+    background-position: center;
+}
+#five{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+#fiveOne{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/fiveOne.png);
+    background-size: cover;
+    background-position: center;
+
+}
+#fiveTwo{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/fiveTwo.png);
+    background-size: cover;
+    background-position: center;
+}
+#six{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+#sixOne{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/sixOne.png);
+    background-size: cover;
+    background-position: center;
+
+}
+#sixTwo{
+    width: 50%;
+    height: 600px;
+    /* border-style: dotted; */
+    background-image: url(images/sixTwo.png);
+    background-size: cover;
+    background-position: center;
+}
+#footer{
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+  align-items: center;
+  border-style: dotted;
+}
+#footer1{
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+    background-image: url(images/footer1.png);
+    background-size: cover;
+    background-position: center;
+}
+#footer1:background-image{
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-position: center;
+}
+#footer2{
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+    background-image: url(images/footer2.png);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Rubik Mono One;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,rgb(15, 96, 52), rgba(139, 241, 160, 0.98));
+}
+#nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    color: aliceblue;
+}
+#nav1{
+    width: 20%;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+#nav2{
+    display: flex;
+    width: 50%;
+    /* background-color: antiquewhite; */
+}
+#nav2 a{
+    padding-top: 35px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+#nav2 i{
+    font-size: 15px;
+    padding-top: 25px;
+}
+#nav3{
+    display: flex;
+    width: 20%;
+}
+#nav3 a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+/* #nav3 #cart{
+    width: 20%;
+    height: 50%;
+    gap: 10px;
+    margin: 10%;
+    border-radius: 30%;
+    background-color: rgba(213, 188, 43, 0.919);
+}
+#cart i{
+    font-size: 30px;
+    padding: 20px;
+} */
+#nav4{
+    display: flex;
+    width: 10%;
+    background-color: rgba(1, 40, 27, 0.688);
+    align-items: center;
+}
+#nav4 i{
+  font-size: 25px;
+   padding: 45%;
+}
+#first{
+    position: relative;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+#center{
+    width: 60%;
+    height: 85%;
+    color: #fff;
+}
+#center h1{
+    font-size: 160px;
+    font-family:Rubik Mono One;
+
+    padding-left: 60px;
+    line-height: 1.1;
+}
+#center p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-left: 90px;
+    padding-top: 150px;
+}
+#center h6{
+    font-size: 1.1rem;
+    padding-left: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#center button{
+    padding: 10px 80px 10px 30px;
+    border: 1px solid gold;
+    border-radius: 40px;
+    background-color: transparent;
+    margin-left: 70px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#center i{
+    font-size: 1.4rem;
+    background-color: gold;
+    margin-left: -41px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#center-right{
+    position: absolute;
+    margin-left: 60%;
+    width: 40%;
+    height: 93%;
+    border-top-left-radius: 30%;
+    background-color: rgba(207, 251, 185, 0.329);
+}
+#center-right img{
+    width: 550px;
+    position: absolute;
+   left: -130px;
+   top: -5px;
+}
+#dot{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 370px;
+    color: #fff;
+    transform: rotate(90deg);
+}
+#dot i{
+    padding-left: 20px;
+}
+#left-btm{
+    bottom: 10px;
+    padding-left: 50px;
+    color: #fff;
+    font-weight: 100;
+}
+#left-btm i{
+    font-size: 50px;
+    font-stretch:extra-expanded
+}
+#last-div{
+    display: flex;
+    width: 90%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   background-color: rgb(6, 66, 43);
+   border-top-left-radius: 40px;
+}
+#div1{
+    width: 30%;
+    height: 100%;
+    background-image: url(images/yellow\ cactus.jpeg);
+    background-size: cover;
+    border-top-left-radius: 40px;
+    background-position: center;
+}
+#div2{
+    color: #fff;
+    width: 55%;
+    height: 100%;
+    background-color: rgba(5, 104, 71, 0.756);
+}
+#text{
+    padding: 40px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#text1{
+    width: 50%;
+    height: 100%;
+    padding-right: 20px;
+}
+#div3{
+    padding-top: 50px;
+    color: #fff;
+}
+#div3 i{
+    padding-left: 15px;
+   background-color: transparent;
+   border-radius: 30px;
+   font-size: 35px;
+}

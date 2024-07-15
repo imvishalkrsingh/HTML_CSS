@@ -1,0 +1,626 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+    justify-content: space-between;
+}
+#head-left{
+    width: 60%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+#head-left span{
+    padding-top: 15px;
+    font-weight: 900;
+}
+#head-left img{
+    width: 50px;
+}
+#head-right{
+    border: 1px solid rgb(38, 6, 246);
+    width: 30%;
+    margin-right: 30px;
+    display: flex;
+    justify-content:flex-end
+}
+#signup{
+    margin-left: 30px;
+    background-color: rgba(190, 19, 19, 0.946);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#head-right button a{
+    color: rgb(248, 247, 247);
+    font-weight:100;
+}
+/* 
+#nav-right{
+    display: flex;
+    padding-top: 15px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+#signup{
+    
+}
+#signup 
+#first-div{
+    display: flex;
+    width: 95%;
+    height: 70px;
+    background-color: rgb(250, 248, 248);
+    margin-left: 43px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#camel{
+    width: 8%;
+    padding-top: 22px;
+}
+#links{
+    width: 82%;
+    padding-top: 25px;
+    /* border: 1px solid brown; */
+/* } */
+/* #links a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    padding-left: 35px;
+}
+#search{
+    width: 10%;
+    height: 100%;
+    border-left: 1px solid black;
+}
+#search p{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-left: 35px;
+}
+#welcome{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+}
+#left{
+    width: 35%;
+    height: 60vh;
+    position: relative;
+    top: 300px;
+    background-image: url(images/asset\ 44.svg);
+    background-repeat: no-repeat;
+    left: -200px;
+}
+#left img{
+    position: absolute;
+    top: -50px;
+    width: 400px;
+    left: 200px;
+    border: 2px solid black;
+}
+#center{
+    position: relative;
+    width: 60%;
+    border: 2px solid red;
+    right: 30%;
+}
+#right{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    border: 2px solid green;
+}
+#designing-kit{
+    width: 94%;
+    margin-left: 40px;
+}
+#painting-kit{
+    width: 380px;
+    height: 400px;
+    border:1px solid black;
+    margin-top: 70px;
+}
+#painting-kit img{
+    width: 270px;
+    height: 360px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#painting-kit p{
+    position: absolute;
+    font-size: 25px;
+    padding-left: 270px;
+    transform: translate(6%,-90%);
+}
+#Student-Oil-Pastels{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(213, 71, 28, 0.891);
+    margin-left: 450px;
+    margin-top: -470px;
+}
+#Student-Oil-Pastels img{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+}
+#Student-Oil-Pastels p{
+    color: aliceblue;
+    font-size: 24px;
+    padding-left: 30px;
+}
+#sketch-pens{
+    width: 400px;
+    height: 390px;
+    border: 1px solid rgb(9, 9, 9);
+    margin-left: 900px;
+    margin-top: -370px;
+}
+#sketch-pens img{
+    width: 250px;
+    height: 340px;
+    margin: 15px;
+}
+#sketch-pens p{
+    padding-left: 70%;
+    transform: translate(0,-80px);
+    font-size: 25px;
+}
+#drawing-kit{
+    position: absolute;
+    width:400px;
+    height: 500px;
+    background-color: rgba(34, 34, 217, 0.746);
+}
+#drawing-kit img{
+    width: 320px;
+    height: 400px;
+    margin: 30px 30px 0px 30px;
+}
+#drawing-kit p{
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#remedix{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 450px;
+    margin-top: 130px;
+}
+#remedix img{
+    width: 200px;
+    height: 300px;
+    margin: 20px 50px 30px 20px;
+}
+#remedix p{
+    margin-left: 250px;
+    margin-top: -110px;
+    font-size: 25px;
+}
+#student-poster{
+    width: 400px;
+    height: 550px;
+    background-color:#d0d305;
+    margin-left: 900px;
+    margin-top: -450px;
+}
+#student-poster img{
+    width: 300px;
+    height: 400px;
+    margin: 40px 45px;
+}
+#student-poster  p{
+    font-size: 25px;
+    color: rgb(252, 253, 253);
+    padding-left: 30px;
+    padding-top: 0px;
+}
+#color-pencil{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+}
+#color-pencil img{
+    width: 220px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#color-pencil p{
+    padding-left: 280px;
+    font-size: 28px;
+    transform: translate(0,-70px);
+}
+#student-water-colours{
+    width: 400px;
+    height: 550px;
+    background-color: aquamarine;
+    margin-top: -430px;
+    margin-left: 450px;
+}
+#student-water-colours img{
+    width: 350px;
+    height: 450px;
+    margin: 30px;
+}
+#student-water-colours p{
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+   transform: translate(25px,-20px);
+}
+#drawing-book{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 900px;
+    margin-top: -440px;
+}
+#drawing-book img{
+    width: 290px;
+    height: 370px;
+    padding: 30px 20px 20px 30px;
+}
+#drawing-book p{
+    font-size: 25px;
+    transform: translate(300px,-90px);
+}
+#crayons{
+    width: 400px;
+    height: 550px;
+    background-color: rgba(183, 51, 51, 0.812);
+}
+#crayons img{
+    width: 350px;
+    height: 450px;
+    margin: 25px;
+}
+#crayons p{
+    font-size: 25px;
+    padding-left: 30px;
+    color: white;
+}
+#brush-pens{
+    width: 400px;
+    height: 350px;
+    border: 1px solid black;
+    margin-left: 450px;
+    margin-top: -400px;
+}
+#brush-pens img{
+    width: 230px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#brush-pens p{
+    margin-left: 300px;
+    transform: translate(0,-60px);
+    font-size: 25px;
+}
+#purple-brush img{
+    width: 370px;
+    margin-top: -70px;
+    margin-left: 750px;
+}
+#purple-brush-later img{
+    width: 50px;
+   transform: translate(1100px,-400px);
+}
+#top-icon img{
+    width: 60px;
+    transform: translate(1250px,-130px);
+}
+#artist-gallery{
+    width: 90%;
+    height: 100%;
+    border-top: 2px solid black;
+    /* border-bottom: 2px solid black; */
+    transform: translate(70px);
+}
+#image1{
+    position: absolute;
+    margin-top: 40px;
+    transform: rotate(30deg);
+}
+#image2{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 40px;
+    transform: rotate(-20deg);
+}
+#image3{
+    position: absolute;
+    margin-top: 400px;
+    transform: rotate(30deg);
+}
+#image4{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+    transform: rotate(30deg);
+    
+}
+#image5{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 350px;
+    transform: rotate(-30deg);
+}
+#image6{
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 330px;
+    transform: rotate(30deg);
+}
+#center{
+    width: 400px;
+    height: 600px;
+    transform: translate(500px,10px);
+}
+#center h4{
+    font-size: 35px;
+    margin-top: 170px;
+    margin-left: 100px;
+    line-height: 45px;
+}
+#center p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 100px;
+    font-weight: 200;
+}
+#center button{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 100px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px;
+    font-weight: 100;
+    border: none;
+}
+#arrow{
+    transform: translate(-98px);
+}
+#right1{
+    position: absolute;
+    transform: translate(1100px,-450px);
+}
+#right2{
+    position: absolute;
+    z-index: 999;
+    /* transform: translate(1100px,-550px); */
+    left: 1150px;
+    top: 40px;
+    transform: rotate(-10deg);
+}
+#right3{
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    transform: rotate(15deg);
+}
+#bottom-text{
+    width: 90%;
+    height: 90px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: -120px;
+    margin-left: 50px;
+}
+.quotation{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+   background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.quotation p{
+    text-align: center;
+    padding-top: 11px;
+    font-size: 35px;
+}
+#bottom-text h6{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+}
+span{
+    color: rgba(126, 143, 159, 0.846);
+}
+#footer{
+    width: 100%;
+    height: 120%;
+    background-color: rgb(16, 15, 15);
+}
+#first{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#first p{
+    padding-left: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.767);
+}
+#first p:hover{
+    color: rgba(255, 255, 255, 0.971);
+}
+#first a{
+   position: relative;
+   top: 35px;
+    padding-left: 30px;
+    font-size: 50px;
+    text-decoration: none;
+    color: aliceblue;
+}
+#first a:hover{
+    color: rgba(240, 248, 255, 0.492);
+}
+#first button{
+    background-color: rgba(62, 54, 54, 0.62);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border: none;
+    margin-left: 1100px;
+    border-radius: 5px;
+}
+#first button:hover{
+    background-color: rgb(5, 4, 4);
+}
+#top-button{
+    position: sticky;
+    margin-left: 90%;
+    width: 70px;
+    margin-top: -150px;
+}
+#top-button img{
+    width: 60px;
+}
+#sectionnn{
+    margin-top: 130px;
+    width: 100%;
+    height: 800px;
+    /* background-color: antiquewhite; */
+}
+#section-top{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* background-color: bisque; */
+}
+#section-btm{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.topp{
+    margin-left: 28px;
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid green; */
+}
+.topp h6{
+    font-size: 20px;
+    color: aliceblue;
+}
+.topp p{
+    margin-top: 30px;
+    color: grey;
+    line-height: 25px;
+}
+.btm{
+    margin-left: 28px;
+    width: 200px;
+    height: 400px;
+    /* border: 1px solid orange; */
+}
+.btm h6{
+    font-size: 20px;
+    color: aliceblue;
+}
+.btm p{
+    margin-top: 30px;
+    color: grey;
+    line-height: 25px;
+}
+#subscribe{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(2, 2, 1);
+    display: flex;
+    border-top: .5px solid grey;
+    border-bottom: .5px solid grey;
+}
+#one{
+    width: 60%;
+    height: 100%;
+    background-color: black
+}
+#one i{
+    color: aliceblue;
+    position: relative;
+    font-size: 50px;
+    margin-left: 50px;
+    top: 53px;
+}
+#one h6{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 110px;
+    text-align:left;
+    padding-top: -10px;
+}
+#one p{
+    color: grey;
+    padding-left: 110px;
+}
+#two{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-color: rgb(2, 2, 2);
+    border-left: .5px solid grey;
+}
+#two a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 50px;
+    top: 50px;
+    font-size: 28px;
+}
+#two button{
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    margin-left: 240px;
+    margin-top: 30px;
+}
+#two button i{
+    font-size: 60px;
+}
+#privacy{
+    width: 100%;
+    height: 130px;
+    background-color: rgb(2, 3, 3);
+}
+#privacy p{
+    color: aliceblue;
+    padding: 30px;
+}
+#privacy h6{
+    color: grey;
+    padding: 10px 30px;
+    font-size: em;
+}
+#lastt{
+    position: relative;
+    font-size: 40px;
+    color: aliceblue;
+    transform: translate(90%,-40px);
+   
+} 
